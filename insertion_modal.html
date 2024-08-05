@@ -1,0 +1,36 @@
+<form action="insert_data.php" method="post" class="flex flex-col">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="input_div flex flex-col">
+                        <label>product name</label>
+                        <input class="border-2 border-black rounded-lg form-control" type="text" name="pname">
+                        </div>
+                        <div class="input_div flex flex-col">
+                        <label>price</label>
+                        <input class="border-2 border-black rounded-lg form-control" type="number" name="price">
+                        </div>
+                        <div class="input_div flex flex-col">
+                        <label>stock</label>
+                        <input class="border-2 border-black rounded-lg form-control" type="number" name="stock">
+                        </div>
+                        <div class="input_div flex flex-col">
+                        <label>origin country</label>
+                        <input class="border-2 border-black rounded-lg form-control" type="text" name="origin_country">
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary" name="add_product" value="Add">
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
